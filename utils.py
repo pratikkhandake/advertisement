@@ -2,13 +2,14 @@
 
 # Import necessary libraries
 import pickle
+import config
 
 # File path of the trained ridge regression model
-MODEL_FILE_PATH = "Advertisement.pkl"
+from config import MODEL_FILE_PATH
 
 # Function to load the trained ridge regression model
-def load_model(model_path):
-    with open(model_path, 'rb') as file:
+def load_model(MODEL_FILE_PATH):
+    with open(MODEL_FILE_PATH, 'rb') as file:
         model = pickle.load(file)
     return model
 
