@@ -5,7 +5,9 @@ from utils import get_predicted_sales
 
 app = Flask(__name__)
 
-# Homepage API
+# Homepage API   
+# for the sake of it
+
 @app.route("/")
 def home():
     return render_template("index.html")
