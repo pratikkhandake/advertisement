@@ -1,0 +1,1 @@
+list of packages or libraries needed to work on a project
