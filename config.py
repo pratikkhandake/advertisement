@@ -1,1 +1,2 @@
-MODEL_FILE_PATH = r"E:\New folder\5. Apps\4. github\2. My_file\Models\advertisement\Artifacts\Advertisement.pkl"
+MODEL_FILE_PATH = "Advertisement.pkl"
+port_number = 8081
