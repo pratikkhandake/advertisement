@@ -1,1 +1,4 @@
-list of packages or libraries needed to work on a project
+Flask
+numpy
+pandas
+scikit-learn
