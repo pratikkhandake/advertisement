@@ -2,6 +2,7 @@
 
 from flask import Flask, request, render_template, jsonify
 from utils import get_predicted_sales
+from config import port_number
 
 app = Flask(__name__)
 
@@ -27,4 +28,4 @@ def predict():
     return jsonify({"sales_prediction": predicted_sales})
 
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run(port=port_number,debug=False)
